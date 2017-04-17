@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Webcam Flame Particle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="video-container" >
+    <div id="content" >
+      <video id="camera-stream" width="320" height="240"  muted="true" autobuffer="true" controls="true" loop autoplay>
+        
+      </video> 
+    </div>
+    <div id="mid" style="float:left;">
+       <canvas id="canvasHidden" width="320" height="240"></canvas>    
+    </div> 
+        <div id="rightThing">
+          <canvas id="canvas" width="320" height="240"></canvas>
+        </div>
+    </div>
+
+    <div id='content'></div>
+    <div id='version'></div>
+    <div id='debug'></div>
+
+    <script type="text/javascript" src="uil.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
